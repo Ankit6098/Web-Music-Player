@@ -1,0 +1,9 @@
+.navbar {
+    display: flex;
+    justify-content: start;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+}
