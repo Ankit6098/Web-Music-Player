@@ -1,9 +1,234 @@
-.navbar {
-    display: flex;
-    justify-content: start;
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@300&display=swap');
+
+/* body */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+font-family: 'Poppins', sans-serif;
 }
 
-#logo {
-    height: 50px;
+/* container */
+
+.container {
+    display: grid;
+    grid-template-columns: 1.2fr 6fr 1.5fr;
+}
+
+/* navigation asidebar */
+
+.main-nav {
+    display: inline-block;
+    max-height: 100vh;
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, #3e2c2a, #38282b, #31252b, #292329, #222025, #1f1e23, #1c1d20, #1a1b1e, #1a1a1e, #191a1d, #19191d, #19181c);
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #B7B7BF;
+    font-size: 1rem;
+}
+
+.navigation .logo{
+    margin: 20px 35px 35px 35px;
+}
+
+.navigation .nav {
+    margin: 15px 0px 0px 40px;
+}
+
+/* navbar logo and icons */
+
+.logo-details {
+    font-size: 1rem;
+    display: inline;
+}
+
+.fa-brands {
+    font-size: 2.5rem;
+    color: #1ed760;
+    margin-right: 15px;
+}
+
+.fa-solid {
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.font-details {
+    font-size: 0.7rem;
+}
+
+.navigation a:hover {
+    color: #fe643d;
+    transition: all 0.5s ease-in-out;
+}
+
+.detials {
+    color: white;
+    font-size: 0.6rem;
+}
+
+/* main body */
+
+.main-main {
+    display: inline-block;
+    max-height: 100vh;
+    min-height: 100vh;
+    background-color: #161618;
+}
+
+.main-body {
+    background-color: #161618;
+    display: inline-block;
+}
+/* upper section */
+
+.searchbar {
+    display: grid;
+    grid-template-columns: 2fr 0fr 1fr;
+    width: auto;
+    height: 8vh;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchcontroller input{
+    display: inline-block;
+    width: 40vw;
+    height: 2%;
+    background-color: #4d4d4d;
+    padding: 20px 20px 20px 60px;
+    border: none;
+    border-radius: 50px;
+}
+
+.searchcontroller input:focus {
+    outline: none;
+    color: white;
+}
+
+#searchbar-icon {
+    position: absolute;
+    color: #B7B7BF;
+    margin: 12px 12px 12px 25px;
+}
+
+.profile-notification {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 300px;
+}
+
+.profile-notification .fa-solid {
+    font-size: 1rem;
+    color: #B7B7BF;
+}
+
+.profile a{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    background-color: #191b1d;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+#profile-name {
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+#profile-image {
     width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.profile .fa-solid {
+    font-size: 0.7rem;
+    margin-left: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.profile .fa-solid:hover{
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+/* recently lissen songs */
+
+.recently-listen-albums-container {
+    padding: 30px;
+}
+
+.recently-listen-albums-title {
+    color: white;
+    margin: 10px 0px;
+}
+
+.recently-container {
+    position: relative;
+    width: 180px;
+    height: 130px;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.hiphop {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: 2px;
+    opacity: 0.45;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* main-body section */
+
+.treding-song-wapper {
+    padding: 50px 150px;
+    color: white;
+}
+
+.trending-details {
+    color: white;
+}
+
+.song-details span{
+    padding: 50px 150px;
+}
+
+.song {
+    display: grid;
+    grid-template-columns: auto auto 40% 30% auto auto;
+}
+
+.song-image img {
+    width: 30px;
+    height: 30px;
+}
+
+/* aside */
+
+.aside {
+    max-height: 100vh;
+    min-height: 100vh;
+    background-color: #191b1d;
 }

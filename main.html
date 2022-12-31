@@ -3,16 +3,376 @@
         <title>Melomaniac</title>
         <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/174/174872.png">
         <link rel="StyleSheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
     </head>
     <body>
-        <nav class="navbar">
-            <ul type="none">
-                <li><a href="#"><img id="logo" src="https://cdn-icons-png.flaticon.com/512/174/174872.png"></a></li>
-                <li><a href="">Discory</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Search</a></li>
-                <li><a href="">Notification</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="main-nav">
+                <div class="navbar">
+                    <ul class="navigation" type="none">
+                        <li class="logo"><a href="#"><i class="fa-brands fa-spotify"></i><span class="logo-details">Melomaniac</span></a></li>
+                        <li class="nav"><a href="#"><i class="fa-solid fa-home"></i><span class="font-details">Home</span></a></li>
+                        <li class="nav"><a href="#"><i class="fa-solid fa-chart-simple"></i><span class="font-details">Trends</span></a></li>
+                        <li class="nav"><a href="#"><i class="fa-solid fa-music"></i><span class="font-details">Library</span></a></li>
+                        <li class="nav"><span class="detials">Discovery</span></li>
+                        <li class="nav"><a href="#"><i class="fa-solid fa-calendar"></i><span class="font-details">Discover Weekly</span></a></li>
+                        <li class="nav"><a href="#"><i class="fa-solid fa-circle-dot"></i><span class="font-details">Made For You</span></a></li>
+                        <li class="nav"><a href="#"><i class="fa-solid fa-music"></i><span class="font-details">Daily Mix</span></a></li>
+                        <li class="nav"><span class="detials">Your Collection</span></li>
+                        <li class="nav"><a href="#"><i class="fa-solid fa-heart"></i><span class="font-details">Liked Songs</span></a></li>
+                        <li class="nav"><a href="#"><i class="fa-solid fa-download"></i><span class="font-details">Your Downlaods</span></a></li>
+                        <li class="nav"><a href="#"><i class="fa-solid fa-music"></i><span class="font-details">Favorite Artist</span></a></li>
+                        <li class="nav"><a href="#"><i class="fa-solid fa-music"></i><span class="font-details">Playlist</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <main class="main-main">
+                <div class="main-body">
+                    <div class="searchbar">
+                        <div class="searchcontroller" style="display: inline-block;">
+                            <i id="searchbar-icon" class="fa-solid fa-search"></i>
+                            <input type="search" placeholder="Search for song, artist and...">
+                        </div>
+                        <div class="profile-notification"> 
+                            <a href=""><i class="fa-solid fa-bell"></i></a>
+                        </div>
+                        <div class="profile">
+                            <a href="">
+                                <img id="profile-image" src="profilephoto.jpg">
+                                <span id="profile-name">Ankit</span>
+                                <i class="fa-solid fa-caret-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="recently-listen-albums-container">
+                        <div class="recently-listen-albums-title">
+                            <span>Recently Listen Albums</span>
+                        </div>
+                        <div class="recently-container">
+                            <div class="hiphop">
+                                <div class="hiphop-title">
+                                    <div>
+                                        <span>Hip-Hop</span>
+                                    </div>
+                                    <div>
+                                        <span>120 new songs</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recently-container">
+                            <div class="hiphop">
+                                <div class="hiphop-title">
+                                    <div>
+                                        <span>Hip-Hop</span>
+                                    </div>
+                                    <div>
+                                        <span>120 new songs</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recently-container">
+                            <div class="hiphop">
+                                <div class="hiphop-title">
+                                    <div>
+                                        <span>Hip-Hop</span>
+                                    </div>
+                                    <div>
+                                        <span>120 new songs</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recently-container">
+                            <div class="hiphop">
+                                <div class="hiphop-title">
+                                    <div>
+                                        <span>Hip-Hop</span>
+                                    </div>
+                                    <div>
+                                        <span>120 new songs</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recently-container">
+                            <div class="hiphop">
+                                <div class="hiphop-title">
+                                    <div>
+                                        <span>Hip-Hop</span>
+                                    </div>
+                                    <div>
+                                        <span>120 new songs</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recently-container">
+                            <div class="hiphop">
+                                <div class="hiphop-title">
+                                    <div>
+                                        <span>Hip-Hop</span>
+                                    </div>
+                                    <div>
+                                        <span>120 new songs</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="treding-song">
+                        <div class="treding-song-wapper">
+                            <span class="trending-details">Trending Songs</span>
+                            <div class="song">
+                                <div class="song-id">
+                                    <span>1</span>
+                                </div>
+                                <div class="song-image">
+                                    <a href=""><img src="profilephoto.jpg"></a>
+                                </div>
+                                <div class="song-name">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song albam">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song-like">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div>
+                                    <span>3:45</span>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="song-id">
+                                    <span>1</span>
+                                </div>
+                                <div class="song-image">
+                                    <a href=""><img src="profilephoto.jpg"></a>
+                                </div>
+                                <div class="song-name">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song albam">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song-like">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div>
+                                    <span>3:45</span>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="song-id">
+                                    <span>1</span>
+                                </div>
+                                <div class="song-image">
+                                    <a href=""><img src="profilephoto.jpg"></a>
+                                </div>
+                                <div class="song-name">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song albam">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song-like">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div>
+                                    <span>3:45</span>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="song-id">
+                                    <span>1</span>
+                                </div>
+                                <div class="song-image">
+                                    <a href=""><img src="profilephoto.jpg"></a>
+                                </div>
+                                <div class="song-name">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song albam">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song-like">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div>
+                                    <span>3:45</span>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="song-id">
+                                    <span>1</span>
+                                </div>
+                                <div class="song-image">
+                                    <a href=""><img src="profilephoto.jpg"></a>
+                                </div>
+                                <div class="song-name">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song albam">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song-like">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div>
+                                    <span>3:45</span>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="song-id">
+                                    <span>1</span>
+                                </div>
+                                <div class="song-image">
+                                    <a href=""><img src="profilephoto.jpg"></a>
+                                </div>
+                                <div class="song-name">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song albam">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song-like">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div>
+                                    <span>3:45</span>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="song-id">
+                                    <span>1</span>
+                                </div>
+                                <div class="song-image">
+                                    <a href=""><img src="profilephoto.jpg"></a>
+                                </div>
+                                <div class="song-name">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song albam">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song-like">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div>
+                                    <span>3:45</span>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="song-id">
+                                    <span>1</span>
+                                </div>
+                                <div class="song-image">
+                                    <a href=""><img src="profilephoto.jpg"></a>
+                                </div>
+                                <div class="song-name">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song albam">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song-like">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div>
+                                    <span>3:45</span>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="song-id">
+                                    <span>1</span>
+                                </div>
+                                <div class="song-image">
+                                    <a href=""><img src="profilephoto.jpg"></a>
+                                </div>
+                                <div class="song-name">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song albam">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song-like">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div>
+                                    <span>3:45</span>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="song-id">
+                                    <span>1</span>
+                                </div>
+                                <div class="song-image">
+                                    <a href=""><img src="profilephoto.jpg"></a>
+                                </div>
+                                <div class="song-name">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song albam">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song-like">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div>
+                                    <span>3:45</span>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="song-id">
+                                    <span>1</span>
+                                </div>
+                                <div class="song-image">
+                                    <a href=""><img src="profilephoto.jpg"></a>
+                                </div>
+                                <div class="song-name">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song albam">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song-like">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div>
+                                    <span>3:45</span>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="song-id">
+                                    <span>1</span>
+                                </div>
+                                <div class="song-image">
+                                    <a href=""><img src="profilephoto.jpg"></a>
+                                </div>
+                                <div class="song-name">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song albam">
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="song-like">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                                <div>
+                                    <span>3:45</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <aside class="aside">
+                <div>
+
+                </div>
+            </aside>
+        </div>
     </body>
 </html>
