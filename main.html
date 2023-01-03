@@ -1,781 +1,886 @@
 <html>
-    <head>
-        <title>Melomaniac</title>
-        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1760/1760892.png">
-        <link rel="StyleSheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
-    </head>
-    <body>
-        <div class="container">
-            <nav class="main-nav">
-                <div class="navbar">
-                    <ul class="navigation" type="none">
-                        <li class="logo"><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1760/1760892.png" alt=""><span class="logo-details">Melomaniac</span></a></li>
-                        <li class="nav"><a href="#"><img class="nav-icon-image" src="https://cdn-icons-png.flaticon.com/512/1946/1946433.png" alt=""><span class="font-details">Home</span></a></li>
-                        <li class="nav"><a href="#"><img class="nav-icon-image" src="https://cdn-icons-png.flaticon.com/512/5198/5198491.png" alt=""><span class="font-details">Trends</span></a></li>
-                        <li class="nav"><a href="#"><img class="nav-icon-image" src="https://cdn-icons-png.flaticon.com/512/3628/3628930.png" alt=""><span class="font-details">Library</span></a></li>
-                        <li class="nav"><span class="detials">Discovery</span></li>
-                        <li class="nav"><a href="#"><img class="nav-icon-image" src="https://cdn-icons-png.flaticon.com/512/6606/6606298.png" alt=""><span class="font-details">Daily Weekly</span></a></li>
-                        <li class="nav"><a href="#"><img class="nav-icon-image" src="https://cdn-icons-png.flaticon.com/512/3214/3214721.png" alt=""><span class="font-details">Made For You</span></a></li>
-                        <li class="nav"><a href="#"><img class="nav-icon-image" src="https://cdn-icons-png.flaticon.com/512/2308/2308425.png" alt=""><span class="font-details">Daily Mix</span></a></li>
-                        <li class="nav"><span class="detials">Your Collection</span></li>
-                        <li class="nav"><a href="#"><img class="nav-icon-image" src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt=""><span class="font-details">Liked Songs</span></a></li>
-                        <li class="nav"><a href="#"><img class="nav-icon-image" src="https://cdn-icons-png.flaticon.com/512/3031/3031718.png" alt=""><span class="font-details">Your Download</span></a></li>
-                        <li class="nav"><a href="#"><img class="nav-icon-image" src="https://cdn-icons-png.flaticon.com/512/476/476863.png" alt=""><span class="font-details">Favorite Artist</span></a></li>
-                        <li class="nav"><a href="#"><img class="nav-icon-image" src="https://cdn-icons-png.flaticon.com/512/5053/5053028.png" alt=""><span class="font-details">Playlist</span></a></li>
-                    </ul>
-                </div>
-            </nav>
-            <main class="main-body">
-                    <div class="upper-container">
-                        <div class="searchbar">
-                            <div class="searchcontroller">
-                                <i id="searchbar-icon" class="fa-solid fa-search"></i>
-                                <input type="search" placeholder="Search for song, artist and...">
-                            </div>
-                            <div class="profile-notification"> 
-                                <a href=""><img class="profile-notification-icon" src="https://cdn-icons-png.flaticon.com/512/1182/1182718.png" alt=""></a>
-                            </div>
-                            <div class="profile">
-                                <a href="">
-                                    <img id="profile-image" src="./images/profile photo/profilephoto.jpg">
-                                    <span id="profile-name">Ankit</span>
-                                    <i class="fa-solid fa-caret-down"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="recently-listen-albums-container">
-                            <div class="recently-listen-albums-title">
-                                <span>Recently Listen Albums</span>
-                                <a href=""><span class="show-all">Show All</span></a>
-                            </div>
-                            <div class="main-recently-container">
-                                <a href="#">
-                                    <div class="recently-container">
-                                        <img class="recent-lissen-aablum-img1" src="./images/albums/nathan-queloz-VWZJgYLpmuI-unsplash.jpg" alt="">
-                                        <div class="recently-container-icon">
-                                            <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672478184965.svg?token=exp=1672479087~hmac=53348f48dbbdf62b22673e803283e50d" alt="">
-                                        </div>
-                                        <div class="hiphop">
-                                            <div class="hiphop-title">
-                                                <div>
-                                                    <span class="recent-album-heading">Hip-Hop</span>
-                                                </div>
-                                                <div>
-                                                    <span class="recent-album-titile">120 new songs</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    </a>
-                                <a href="#">
-                                <div class="recently-container">
-                                    <img class="recent-lissen-aablum-img1" src="./images/albums/ben-collins-uH2BsW8VoxA-unsplash.jpg" alt="">
-                                    <div class="recently-container-icon">
-                                        <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672478184965.svg?token=exp=1672479087~hmac=53348f48dbbdf62b22673e803283e50d" alt="">
-                                    </div>
-                                    <div class="hiphop">
-                                        <div class="hiphop-title">
-                                            <div>
-                                                <span class="recent-album-heading">Panjabi</span>
-                                            </div>
-                                            <div>
-                                                <span class="recent-album-titile">159 new songs</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                </a>
-                                <a href="#">
-                                    <div class="recently-container">
-                                        <img class="recent-lissen-aablum-img1" src="./images/albums/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg" alt="">
-                                        <div class="recently-container-icon">
-                                            <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672478184965.svg?token=exp=1672479087~hmac=53348f48dbbdf62b22673e803283e50d" alt="">
-                                        </div>
-                                        <div class="hiphop">
-                                            <div class="hiphop-title">
-                                                <div>
-                                                    <span class="recent-album-heading">English</span>
-                                                </div>
-                                                <div>
-                                                    <span class="recent-album-titile">124 new songs</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="recently-container">
-                                        <img class="recent-lissen-aablum-img1" src="./images/albums/x-wen-qjCHPZbeXCQ-unsplash.jpg" alt="">
-                                        <div class="recently-container-icon">
-                                            <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672478184965.svg?token=exp=1672479087~hmac=53348f48dbbdf62b22673e803283e50d" alt="">
-                                        </div>
-                                        <div class="hiphop">
-                                            <div class="hiphop-title">
-                                                <div>
-                                                    <span class="recent-album-heading">Romantic</span>
-                                                </div>
-                                                <div>
-                                                    <span class="recent-album-titile">88 new songs</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="recently-container">
-                                        <img class="recent-lissen-aablum-img1" src="./images/albums/jason-blackeye-wlIB1M8YTnY-unsplash.jpg" alt="">
-                                        <div class="recently-container-icon">
-                                            <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672478184965.svg?token=exp=1672479087~hmac=53348f48dbbdf62b22673e803283e50d" alt="">
-                                        </div>
-                                        <div class="hiphop">
-                                            <div class="hiphop-title">
-                                                <div>
-                                                    <span class="recent-album-heading">Spanish Pop</span>
-                                                </div>
-                                                <div>
-                                                    <span class="recent-album-titile">120 new songs</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="recently-container">
-                                        <img class="recent-lissen-aablum-img1" src="./images/albums/kumiko-shimizu-HU4z23iz7Mw-unsplash.jpg" alt="">
-                                        <div class="recently-container-icon">
-                                            <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672478184965.svg?token=exp=1672479087~hmac=53348f48dbbdf62b22673e803283e50d" alt="">
-                                        </div>
-                                        <div class="hiphop">
-                                            <div class="hiphop-title">
-                                                <div>
-                                                    <span class="recent-album-heading">Pop</span>
-                                                </div>
-                                                <div>
-                                                    <span class="recent-album-titile">97 new songs</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
 
-                        <!-- artist section -->
-                        <div class="recently-listen-albums-container">
-                            <div class="recently-listen-albums-title">
-                                <span>Recently Listen Artist</span>
-                                <a href=""><span class="show-all">Show All</span></a>
-                            </div>
-                            <div class="main-recently-container">
-                                <a href="#">
-                                <div class="recently-container">
-                                    <img class="recent-lissen-aablum-img1" src="./images/artist photo/sidhu mosewala/Sidhu-Moose-Wala.jpg" alt="">
-                                    <div class="recently-container-icon">
-                                        <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672478184965.svg?token=exp=1672479087~hmac=53348f48dbbdf62b22673e803283e50d" alt="">
-                                    </div>
-                                    <div class="hiphop">
-                                        <div class="hiphop-title">
-                                            <div>
-                                                <span class="recent-album-heading">Sidhu Moose wala</span>
-                                            </div>
-                                            <div>
-                                                <span class="recent-album-titile">Verified Artist <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a" alt="" class="verified-artist"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                </a>
-                                <a href="#">
-                                    <div class="recently-container">
-                                        <img class="recent-lissen-aablum-img1" src="./images/artist photo/post malone/wallpaperflare.com_wallpaper.jpg" alt="">
-                                        <div class="recently-container-icon">
-                                            <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672478184965.svg?token=exp=1672479087~hmac=53348f48dbbdf62b22673e803283e50d" alt="">
-                                        </div>
-                                        <div class="hiphop">
-                                            <div class="hiphop-title">
-                                                <div>
-                                                    <span class="recent-album-heading">Post Malone</span>
-                                                </div>
-                                                <div>
-                                                    <span class="recent-album-titile">Verified Artist <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a" alt="" class="verified-artist"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="recently-container">
-                                        <img class="recent-lissen-aablum-img1" src="./images/artist photo/drake/2803.jpg" alt="">
-                                        <div class="recently-container-icon">
-                                            <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672478184965.svg?token=exp=1672479087~hmac=53348f48dbbdf62b22673e803283e50d" alt="">
-                                        </div>
-                                        <div class="hiphop">
-                                            <div class="hiphop-title">
-                                                <div>
-                                                    <span class="recent-album-heading">Drake</span>
-                                                </div>
-                                                <div>
-                                                    <span class="recent-album-titile">Verified Artist <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a" alt="" class="verified-artist"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="recently-container">
-                                        <img class="recent-lissen-aablum-img1" src="./images/artist photo/diljit/Diljit-Dosanjh-is-looking-forward-to-work-in-Ali-Abbas-Zafars-film-based-on-Indias-1984-riots-1.jpg" alt="">
-                                        <div class="recently-container-icon">
-                                            <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672478184965.svg?token=exp=1672479087~hmac=53348f48dbbdf62b22673e803283e50d" alt="">
-                                        </div>
-                                        <div class="hiphop">
-                                            <div class="hiphop-title">
-                                                <div>
-                                                    <span class="recent-album-heading">Diljit Dosanjh</span>
-                                                </div>
-                                                <div>
-                                                    <span class="recent-album-titile">Verifired Artist <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a" alt="" class="verified-artist"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="recently-container">
-                                        <img class="recent-lissen-aablum-img1" src="./images/artist photo/ap dhillon/AP_Dhillon_performs_at_DEC_Arena_m61952.jpg" alt="">
-                                        <div class="recently-container-icon">
-                                            <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672478184965.svg?token=exp=1672479087~hmac=53348f48dbbdf62b22673e803283e50d" alt="">
-                                        </div>
-                                        <div class="hiphop">
-                                            <div class="hiphop-title">
-                                                <div>
-                                                    <span class="recent-album-heading">AP Dhillon</span>
-                                                </div>
-                                                <div>
-                                                    <span class="recent-album-titile">Verified Artist <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a" alt="" class="verified-artist"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+<head>
+    <title>Melomaniac</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1760/1760892.png">
+    <link rel="StyleSheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <nav class="main-nav">
+            <div class="navbar">
+                <ul class="navigation" type="none">
+                    <li class="logo"><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1760/1760892.png"
+                                alt=""><span class="logo-details">Melomaniac</span></a></li>
+                    <li class="nav"><a href="#"><img class="nav-icon-image"
+                                src="https://cdn-icons-png.flaticon.com/512/1946/1946433.png" alt=""><span
+                                class="font-details">Home</span></a></li>
+                    <li class="nav"><a href="#"><img class="nav-icon-image"
+                                src="https://cdn-icons-png.flaticon.com/512/5198/5198491.png" alt=""><span
+                                class="font-details">Trends</span></a></li>
+                    <li class="nav"><a href="#"><img class="nav-icon-image"
+                                src="https://cdn-icons-png.flaticon.com/512/3628/3628930.png" alt=""><span
+                                class="font-details">Library</span></a></li>
+                    <li class="nav"><span class="detials">Discovery</span></li>
+                    <li class="nav"><a href="#"><img class="nav-icon-image"
+                                src="https://cdn-icons-png.flaticon.com/512/6606/6606298.png" alt=""><span
+                                class="font-details">Daily Weekly</span></a></li>
+                    <li class="nav"><a href="#"><img class="nav-icon-image"
+                                src="https://cdn-icons-png.flaticon.com/512/3214/3214721.png" alt=""><span
+                                class="font-details">Made For You</span></a></li>
+                    <li class="nav"><a href="#"><img class="nav-icon-image"
+                                src="https://cdn-icons-png.flaticon.com/512/2308/2308425.png" alt=""><span
+                                class="font-details">Daily Mix</span></a></li>
+                    <li class="nav"><span class="detials">Your Collection</span></li>
+                    <li class="nav"><a href="#"><img class="nav-icon-image"
+                                src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt=""><span
+                                class="font-details">Liked Songs</span></a></li>
+                    <li class="nav"><a href="#"><img class="nav-icon-image"
+                                src="https://cdn-icons-png.flaticon.com/512/3031/3031718.png" alt=""><span
+                                class="font-details">Your Download</span></a></li>
+                    <li class="nav"><a href="#"><img class="nav-icon-image"
+                                src="https://cdn-icons-png.flaticon.com/512/476/476863.png" alt=""><span
+                                class="font-details">Favorite Artist</span></a></li>
+                    <li class="nav"><a href="#"><img class="nav-icon-image"
+                                src="https://cdn-icons-png.flaticon.com/512/5053/5053028.png" alt=""><span
+                                class="font-details">Playlist</span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <main class="main-body">
+            <div class="upper-container">
+                <div class="searchbar">
+                    <div class="searchcontroller">
+                        <i id="searchbar-icon" class="fa-solid fa-search"></i>
+                        <input type="search" placeholder="Search for song, artist and...">
                     </div>
-                    <div class="treding-song">
-                        <div class="treding-song-wapper">
-                            <div class="trending-details">
-                                <span>Trending Right Now</span>
-                            </div>
-                            <div class="trending-song-title">
-                                <div class="trending-song-title-song">
-                                    <div class="song-id">
-                                        <span>#</span>
-                                    </div>
-                                    <div class="trending-song-title-song-image">
-                                        <span>TITLE</span>
-                                    </div>
-                                    <div class="trending-song-title-song-name">
-                                        <span> </span>
-                                    </div>
-                                    <div class="trending-song-title-song albam">
-                                        <span>ALBUM</span>
-                                    </div>
-                                    <div class="trending-song-plays">
-                                        <span>PLAYS</span>
-                                    </div>
-                                    <div class="trending-song-title-song-like">
-                                        <span></span>
-                                    </div>
-                                    <div>
-                                        <img class="time-icon" src="https://cdn-icons-png.flaticon.com/512/9307/9307652.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="profile-notification">
+                        <div>
+                        <a href=""><img class="profile-notification-icon" src="https://cdn-icons-png.flaticon.com/512/1182/1182718.png" alt=""></a>
+                        </div>
+                        <div class="profile">
                             <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>1</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/295.jpg"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>295</span>
-                                        </div>
-                                        <div class="singer-name">
-                                            <span>Sidhu Moose wala</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>MooseTape</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>114,888,479</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>4:30</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>2</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/the last ride.jpg"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>The Last Ride</span>
-                                        </div>
-                                        <div class="singer-name">
-                                            <span>Sidhu Moose wala</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>MooseTape</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>71,845,256</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>4:22</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>3</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/i like you.jpg"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>I Like You</span>
-                                        </div>
-                                        <div class="singer-name">
-                                            <span>Post Malone, Doja Cat</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>Twelve Carat Toothache</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>394,678,438</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-user-icons.flaticon.com/25987/25987510/1672559297606.svg?token=exp=1672560199~hmac=e864c016bdadbe6322c66b4c6d5fc3db" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>3:12</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>4</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/DripReport_-_Sketchers_New_Cover.jpg"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>Skechers</span>
-                                        </div>
-                                        <div class="singer-name">
-                                            <span>DripReport</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>Skechers</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>352,064,509</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>1:46</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>5</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/voilet.PNG"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>Violet</span>
-                                        </div>
-                                        <div class="singer-name">
-                                            <span>Conner Price, Killa</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>Violet</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>26,948,279</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>2:02</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>6</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/raxanne.jpg"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>ROXANNE</span>
-                                        </div>
-                                        <div class="singer-name">
-                                            <span>Arizona Zervas</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>ROXANNE</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>1,328,437,757</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-user-icons.flaticon.com/25987/25987510/1672559297606.svg?token=exp=1672560199~hmac=e864c016bdadbe6322c66b4c6d5fc3db" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>2:43</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>7</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/excusess.PNG"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>Excuses</span>
-                                        </div>
-                                        <div class="singer-name">
-                                            <span>AP Dhillon, Gurinder Gill, Intense</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>Excuses</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>245,824,790</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-user-icons.flaticon.com/25987/25987510/1672559297606.svg?token=exp=1672560199~hmac=e864c016bdadbe6322c66b4c6d5fc3db" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>2:56</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>8</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/summer-high.jpg"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>Summer High</span>
-                                        </div class="singer-name">
-                                        <div>
-                                            <span>AP Dhillon</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>Summner High</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>79,108,336</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>2:57</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>9</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/maan meri jaan.jpg"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>Main Meri Jann</span>
-                                        </div class="singer-name">
-                                        <div>
-                                            <span>King</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>Champagne Talk</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>85,964,081</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-user-icons.flaticon.com/25987/25987510/1672559297606.svg?token=exp=1672560199~hmac=e864c016bdadbe6322c66b4c6d5fc3db" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>3:14</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>10</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/maujjan.jpg"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>Maujjan</span>
-                                        </div>
-                                        <div class="singer-name">
-                                            <span>Ikka, Sikander kahlon</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>I</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>1,067,937</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-user-icons.flaticon.com/25987/25987510/1672559297606.svg?token=exp=1672560199~hmac=e864c016bdadbe6322c66b4c6d5fc3db" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>3:45</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>11</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/born-to-shine-Flyer.jpg"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>Born to Shine</span>
-                                        </div>
-                                        <div class="singer-name">
-                                            <span>Diljit Doshanjh</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>G.O.A.T</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>51,064,509</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>3:43</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>12</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/no love.jpg"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>No Love</span>
-                                        </div>
-                                        <div class="singer-name">
-                                            <span>Shubh</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>No Love</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>155,441,400</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>2:50</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>13</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/bt ho gayi.jpg"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>Bt ho Gayi</span>
-                                        </div>
-                                        <div class="singer-name">
-                                            <span>Paradox</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>Bt Ho Gayi</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>7,747,537</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-user-icons.flaticon.com/25987/25987510/1672559297606.svg?token=exp=1672560199~hmac=e864c016bdadbe6322c66b4c6d5fc3db" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>2:40</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>14</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/glitch.jpeg"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>Glitch</span>
-                                        </div>
-                                        <div class="singer-name">
-                                            <span>Paradox</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>Glitch</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>1,410,780</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>3:10</span>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="song">
-                                    <div class="song-id">
-                                        <span>15</span>
-                                    </div>
-                                    <div class="song-image">
-                                        <a href=""><img src="./images/music/for the night.jpg"></a>
-                                    </div>
-                                    <div class="song-name">
-                                        <div>
-                                            <span>For The Night</span>
-                                        </div>
-                                        <div class="singer-name">
-                                            <span>Pop Smoke, Lil Baby, DaBaby</span>
-                                        </div>
-                                    </div>
-                                    <div class="song-albam">
-                                        <span>For The Night</span>
-                                    </div>
-                                    <div class="people-plays">
-                                        <span>936,333,304</span>
-                                    </div>
-                                    <div class="song-like">
-                                        <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt="">
-                                    </div>
-                                    <div class="song-time">
-                                        <span>2:56</span>
-                                    </div>
-                                </div>
+                                <img id="profile-image" src="./images/profile photo/profilephoto.jpg">
+                                <span id="profile-name"><b>Ankit</b></span>
+                                <i class="fa-solid fa-caret-down"></i>
                             </a>
                         </div>
                     </div>
-            </main>
-            <aside class="aside">
-                <!-- friend activity -->
-                <div class="friend-activy-container">
-                    <div class="friend-activity-title">
-                        <span>Friend Activity</span>
-                        <a href=""><img src="https://cdn-icons-png.flaticon.com/512/7887/7887065.png" alt="" class="friend-activity-icon"></a>
+                    
+                </div>
+                <div class="recently-listen-albums-container">
+                    <div class="recently-listen-albums-title">
+                        <span>Recently Listen Albums</span>
+                        <a href=""><span class="show-all">Show All</span></a>
                     </div>
-                    <div class="friend-container">
+                    <div class="main-recently-container">
+                        <a href="#">
+                            <div class="recently-container">
+                                <img class="recent-lissen-aablum-img1" src="./images/albums/nathan-queloz-VWZJgYLpmuI-unsplash.jpg" alt="">
+                                <div class="hiphop">
+                                    <div class="hiphop-title">
+                                        <div>
+                                            <span class="recent-album-heading">Hip-Hop</span>
+                                        </div>
+                                        <div>
+                                            <span class="recent-album-titile">120 new songs</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="recently-container">
+                                <img class="recent-lissen-aablum-img1" src="./images/albums/ben-collins-uH2BsW8VoxA-unsplash.jpg" alt="">
+                                <div class="hiphop">
+                                    <div class="hiphop-title">
+                                        <div>
+                                            <span class="recent-album-heading">Panjabi</span>
+                                        </div>
+                                        <div>
+                                            <span class="recent-album-titile">159 new songs</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="recently-container">
+                                <img class="recent-lissen-aablum-img1"
+                                    src="./images/albums/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg" alt="">
+                                <div class="hiphop">
+                                    <div class="hiphop-title">
+                                        <div>
+                                            <span class="recent-album-heading">English</span>
+                                        </div>
+                                        <div>
+                                            <span class="recent-album-titile">124 new songs</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="recently-container">
+                                <img class="recent-lissen-aablum-img1"
+                                    src="./images/albums/x-wen-qjCHPZbeXCQ-unsplash.jpg" alt="">
+                                <div class="hiphop">
+                                    <div class="hiphop-title">
+                                        <div>
+                                            <span class="recent-album-heading">Romantic</span>
+                                        </div>
+                                        <div>
+                                            <span class="recent-album-titile">88 new songs</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="recently-container">
+                                <img class="recent-lissen-aablum-img1"
+                                    src="./images/albums/jason-blackeye-wlIB1M8YTnY-unsplash.jpg" alt="">
+                                <div class="hiphop">
+                                    <div class="hiphop-title">
+                                        <div>
+                                            <span class="recent-album-heading">Spanish Pop</span>
+                                        </div>
+                                        <div>
+                                            <span class="recent-album-titile">120 new songs</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="recently-container">
+                                <img class="recent-lissen-aablum-img1"
+                                    src="./images/albums/kumiko-shimizu-HU4z23iz7Mw-unsplash.jpg" alt="">
+                                <div class="hiphop">
+                                    <div class="hiphop-title">
+                                        <div>
+                                            <span class="recent-album-heading">Pop</span>
+                                        </div>
+                                        <div>
+                                            <span class="recent-album-titile">97 new songs</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- artist section -->
+                <div class="recently-listen-albums-container">
+                    <div class="recently-listen-albums-title">
+                        <span>Recently Listen Artist</span>
+                        <a href=""><span class="show-all">Show All</span></a>
+                    </div>
+                    <div class="main-recently-container">
+                        <a href="#">
+                            <div class="recently-container">
+                                <img class="recent-lissen-aablum-img1"
+                                    src="./images/artist photo/sidhu mosewala/Sidhu-Moose-Wala.jpg" alt="">
+                                <div class="hiphop">
+                                    <div class="hiphop-title">
+                                        <div>
+                                            <span class="recent-album-heading">Sidhu Moose wala</span>
+                                        </div>
+                                        <div>
+                                            <span class="recent-album-titile">Verified Artist <img
+                                                    src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a"
+                                                    alt="" class="verified-artist"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="recently-container">
+                                <img class="recent-lissen-aablum-img1"
+                                    src="./images/artist photo/post malone/wallpaperflare.com_wallpaper.jpg" alt="">
+                                <div class="hiphop">
+                                    <div class="hiphop-title">
+                                        <div>
+                                            <span class="recent-album-heading">Post Malone</span>
+                                        </div>
+                                        <div>
+                                            <span class="recent-album-titile">Verified Artist <img
+                                                    src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a"
+                                                    alt="" class="verified-artist"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="recently-container">
+                                <img class="recent-lissen-aablum-img1" src="./images/artist photo/drake/2803.jpg"
+                                    alt="">
+                                <div class="hiphop">
+                                    <div class="hiphop-title">
+                                        <div>
+                                            <span class="recent-album-heading">Drake</span>
+                                        </div>
+                                        <div>
+                                            <span class="recent-album-titile">Verified Artist <img
+                                                    src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a"
+                                                    alt="" class="verified-artist"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="recently-container">
+                                <img class="recent-lissen-aablum-img1"
+                                    src="./images/artist photo/diljit/Diljit-Dosanjh-is-looking-forward-to-work-in-Ali-Abbas-Zafars-film-based-on-Indias-1984-riots-1.jpg"
+                                    alt="">
+                                <div class="hiphop">
+                                    <div class="hiphop-title">
+                                        <div>
+                                            <span class="recent-album-heading">Diljit Dosanjh</span>
+                                        </div>
+                                        <div>
+                                            <span class="recent-album-titile">Verifired Artist <img
+                                                    src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a"
+                                                    alt="" class="verified-artist"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="recently-container">
+                                <img class="recent-lissen-aablum-img1"
+                                    src="./images/artist photo/ap dhillon/AP_Dhillon_performs_at_DEC_Arena_m61952.jpg"
+                                    alt="">
+                                <div class="hiphop">
+                                    <div class="hiphop-title">
+                                        <div>
+                                            <span class="recent-album-heading">AP Dhillon</span>
+                                        </div>
+                                        <div>
+                                            <span class="recent-album-titile">Verified Artist <img
+                                                    src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a"
+                                                    alt="" class="verified-artist"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="treding-song">
+                <div class="treding-song-wapper">
+                    <div class="trending-song-title">
+                        <div class="trending-details">
+                            <span>Trending Right Now</span>
+                        </div>
+                        <div class="trending-song-title-song">
+                            <div class="song-id">
+                                <span>#</span>
+                            </div>
+                            <div class="trending-song-title-song-image">
+                                <span>TITLE</span>
+                            </div>
+                            <div class="trending-song-title-song-name">
+                                <span> </span>
+                            </div>
+                            <div class="trending-song-title-song albam">
+                                <span>ALBUM</span>
+                            </div>
+                            <div class="trending-song-plays">
+                                <span>PLAYS</span>
+                            </div>
+                            <div class="trending-song-title-song-like">
+                                <span></span>
+                            </div>
+                            <div>
+                                <img class="time-icon" src="https://cdn-icons-png.flaticon.com/512/9307/9307652.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>1</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/295.jpg"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>295</span>
+                                </div>
+                                <div class="singer-name">
+                                    <span>Sidhu Moose wala</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>MooseTape</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>114,888,479</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>4:30</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>2</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/the last ride.jpg"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>The Last Ride</span>
+                                </div>
+                                <div class="singer-name">
+                                    <span>Sidhu Moose wala</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>MooseTape</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>71,845,256</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>4:22</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>3</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/i like you.jpg"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>I Like You</span>
+                                </div>
+                                <div class="singer-name">
+                                    <span>Post Malone, Doja Cat</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>Twelve Carat Toothache</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>394,678,438</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like"
+                                    src="https://cdn-user-icons.flaticon.com/25987/25987510/1672559297606.svg?token=exp=1672560199~hmac=e864c016bdadbe6322c66b4c6d5fc3db"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>3:12</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>4</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/DripReport_-_Sketchers_New_Cover.jpg"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>Skechers</span>
+                                </div>
+                                <div class="singer-name">
+                                    <span>DripReport</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>Skechers</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>352,064,509</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>1:46</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>5</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/voilet.PNG"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>Violet</span>
+                                </div>
+                                <div class="singer-name">
+                                    <span>Conner Price, Killa</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>Violet</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>26,948,279</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>2:02</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>6</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/raxanne.jpg"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>ROXANNE</span>
+                                </div>
+                                <div class="singer-name">
+                                    <span>Arizona Zervas</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>ROXANNE</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>1,328,437,757</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like"
+                                    src="https://cdn-user-icons.flaticon.com/25987/25987510/1672559297606.svg?token=exp=1672560199~hmac=e864c016bdadbe6322c66b4c6d5fc3db"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>2:43</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>7</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/excusess.PNG"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>Excuses</span>
+                                </div>
+                                <div class="singer-name">
+                                    <span>AP Dhillon, Gurinder Gill, Intense</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>Excuses</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>245,824,790</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like"
+                                    src="https://cdn-user-icons.flaticon.com/25987/25987510/1672559297606.svg?token=exp=1672560199~hmac=e864c016bdadbe6322c66b4c6d5fc3db"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>2:56</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>8</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/summer-high.jpg"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>Summer High</span>
+                                </div class="singer-name">
+                                <div>
+                                    <span>AP Dhillon</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>Summner High</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>79,108,336</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>2:57</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>9</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/maan meri jaan.jpg"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>Main Meri Jann</span>
+                                </div class="singer-name">
+                                <div>
+                                    <span>King</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>Champagne Talk</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>85,964,081</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like"
+                                    src="https://cdn-user-icons.flaticon.com/25987/25987510/1672559297606.svg?token=exp=1672560199~hmac=e864c016bdadbe6322c66b4c6d5fc3db"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>3:14</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>10</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/maujjan.jpg"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>Maujjan</span>
+                                </div>
+                                <div class="singer-name">
+                                    <span>Ikka, Sikander kahlon</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>I</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>1,067,937</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like"
+                                    src="https://cdn-user-icons.flaticon.com/25987/25987510/1672559297606.svg?token=exp=1672560199~hmac=e864c016bdadbe6322c66b4c6d5fc3db"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>3:45</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>11</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/born-to-shine-Flyer.jpg"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>Born to Shine</span>
+                                </div>
+                                <div class="singer-name">
+                                    <span>Diljit Doshanjh</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>G.O.A.T</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>51,064,509</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>3:43</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>12</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/no love.jpg"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>No Love</span>
+                                </div>
+                                <div class="singer-name">
+                                    <span>Shubh</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>No Love</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>155,441,400</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>2:50</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>13</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/bt ho gayi.jpg"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>Bt ho Gayi</span>
+                                </div>
+                                <div class="singer-name">
+                                    <span>Paradox</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>Bt Ho Gayi</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>7,747,537</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like"
+                                    src="https://cdn-user-icons.flaticon.com/25987/25987510/1672559297606.svg?token=exp=1672560199~hmac=e864c016bdadbe6322c66b4c6d5fc3db"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>2:40</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>14</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/glitch.jpeg"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>Glitch</span>
+                                </div>
+                                <div class="singer-name">
+                                    <span>Paradox</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>Glitch</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>1,410,780</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>3:10</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="song">
+                            <div class="song-id">
+                                <span>15</span>
+                            </div>
+                            <div class="song-image">
+                                <a href=""><img src="./images/music/for the night.jpg"></a>
+                            </div>
+                            <div class="song-name">
+                                <div>
+                                    <span>For The Night</span>
+                                </div>
+                                <div class="singer-name">
+                                    <span>Pop Smoke, Lil Baby, DaBaby</span>
+                                </div>
+                            </div>
+                            <div class="song-albam">
+                                <span>For The Night</span>
+                            </div>
+                            <div class="people-plays">
+                                <span>936,333,304</span>
+                            </div>
+                            <div class="song-like">
+                                <img class="song-like" src="https://cdn-icons-png.flaticon.com/512/210/210545.png"
+                                    alt="">
+                            </div>
+                            <div class="song-time">
+                                <span>2:56</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="music-control-container">
+                <div class="music-control-container-wrapper">
+                    <!-- <div class="music-control-image">
+                        <img src="./images/artist photo/sidhu mosewala/Sidhu-Moosewala-Photos-65.jpeg" alt="">
+                    </div> -->
+                        <div class="music-control-iconsleft">
+                            <div>
+                                <img src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt="">
+                            </div>
+                            <div>
+                                <img src="https://cdn-icons-png.flaticon.com/512/5644/5644526.png" alt="">
+                            </div>
+                            <div>
+                                <img src="https://cdn-icons-png.flaticon.com/512/4562/4562831.png" alt="">
+                            </div>
+                        </div>
+                        <div class="music-control-iconsmid">
+                            <div class="upper-music-section">
+                                <div>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/9053/9053446.png" alt="">
+                                </div>
+                                <div>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/8191/8191473.png" alt="">
+                                </div>
+                                <div class="music-play-button">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/440/440796.png" alt="">
+                                </div>
+                                <div>
+                                    <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672739879871.svg?token=exp=1672740781~hmac=86005876c0ba8c9cd9b133077b5542e5" alt="">
+                                </div>
+                                <div>
+                                    <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672740003710.svg?token=exp=1672740905~hmac=1f7a4700564acf41ec9989e6360c5402" alt="">
+                                </div>
+                            </div>
+                            <div class="lower-music-section">
+                                <div>
+                                    <span class="music-time">0:40</span>
+                                </div>
+                                <div class="music-progress-bar">
+                                    
+                                </div>
+                                <div>
+                                    <span class="music-time">3:50</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="music-control-iconsright">
+                            <div>
+                                <img src="https://cdn-icons-png.flaticon.com/512/896/896317.png" alt="">
+                            </div>
+                            <div>
+                                <img src="https://cdn-icons-png.flaticon.com/512/561/561228.png" alt="">
+                            </div>
+                            <div class="music-volumn-bar">
+                                <img src="https://cdn-icons-png.flaticon.com/512/747/747945.png" alt="">
+                            </div>
+                            <div>
+                                <img src="https://cdn-icons-png.flaticon.com/512/786/786474.png" alt="">
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </main>
+        <aside class="aside">
+            <!-- friend activity -->
+            <div class="friend-activy-container">
+                <div class="friend-activity-title">
+                    <span>Friend Activity</span>
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/7887/7887065.png" alt=""
+                            class="friend-activity-icon"></a>
+                </div>
+                <div class="friend-container">
+                    <a href="">
                         <div class="friend">
                             <div class="friend-image">
                                 <img src="./images/friend activity/utkarsh.jpeg" alt="">
                             </div>
                             <div>
                                 <span class="friend-lisening-name">Utkarsh Singh</span>
-                                <span class="friend-lisening-song" style="display: block;">Hamuman Chalisa (Gulshan Kumar)</span>
+                                <span class="friend-lisening-song" style="display: block;">Hamuman Chalisa (Gulshan
+                                    Kumar)</span>
                             </div>
                             <div class="lisening-icon">
                                 <img src="https://cdn-icons-png.flaticon.com/512/6190/6190871.png" alt="">
                             </div>
                         </div>
+                    </a>
+                    <a href="">
                         <div class="friend">
                             <div class="friend-image">
                                 <img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png" alt="">
                             </div>
                             <div>
-                                <span class="friend-lisening-name">Manish Samble</span>
+                                <span class="friend-lisening-name">Manish Sable</span>
                                 <span class="friend-lisening-song" style="display: block;"></span>
                             </div>
                             <div class="lisening-icon">
-                                <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672656315334.svg?token=exp=1672657217~hmac=e779d3823f587a94206faa4eade708df" alt="">
+                                <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672656315334.svg?token=exp=1672657217~hmac=e779d3823f587a94206faa4eade708df"
+                                    alt="">
                             </div>
                         </div>
+                    </a>
+                    <a href="">
                         <div class="friend">
                             <div class="friend-image">
                                 <img src="./images/friend activity/sanam.PNG" alt="">
@@ -788,6 +893,8 @@
                                 <img src="https://cdn-icons-png.flaticon.com/512/6190/6190871.png" alt="">
                             </div>
                         </div>
+                    </a>
+                    <a href="">
                         <div class="friend">
                             <div class="friend-image">
                                 <img src="https://cdn-icons-png.flaticon.com/512/4140/4140047.png" alt="">
@@ -800,18 +907,23 @@
                                 <img src="https://cdn-icons-png.flaticon.com/512/6190/6190871.png" alt="">
                             </div>
                         </div>
+                    </a>
+                    <a href="">
                         <div class="friend">
                             <div class="friend-image">
                                 <img src="https://cdn-icons-png.flaticon.com/512/4140/4140047.png" alt="">
                             </div>
                             <div>
                                 <span class="friend-lisening-name">Sanjana Ojha</span>
-                                <span class="friend-lisening-song" style="display: block;">FML (Arizona Zerves)</span>
+                                <span class="friend-lisening-song" style="display: block;"></span>
                             </div>
                             <div class="lisening-icon">
-                                <img src="https://cdn-icons-png.flaticon.com/512/6190/6190871.png" alt="">
+                                <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672656315334.svg?token=exp=1672657217~hmac=e779d3823f587a94206faa4eade708df"
+                                    alt="">
                             </div>
                         </div>
+                    </a>
+                    <a href="">
                         <div class="friend">
                             <div class="friend-image">
                                 <img src="./images/friend activity/shivam.PNG" alt="">
@@ -824,6 +936,8 @@
                                 <img src="https://cdn-icons-png.flaticon.com/512/6190/6190871.png" alt="">
                             </div>
                         </div>
+                    </a>
+                    <a href="">
                         <div class="friend">
                             <div class="friend-image">
                                 <img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png" alt="">
@@ -833,18 +947,22 @@
                                 <span class="friend-lisening-song" style="display: block;"></span>
                             </div>
                             <div class="lisening-icon">
-                                <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672656315334.svg?token=exp=1672657217~hmac=e779d3823f587a94206faa4eade708df" alt="">
+                                <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672656315334.svg?token=exp=1672657217~hmac=e779d3823f587a94206faa4eade708df"
+                                    alt="">
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <!--favortie artist -->
-                <div class="friend-activy-container">
-                    <div class="friend-activity-title">
-                        <span>Favorite Artist</span>
-                        <a href=""><img src="https://cdn-icons-png.flaticon.com/512/8105/8105581.png" alt="" class="friend-activity-icon"></a>
-                    </div>
-                    <div class="friend-container">
+            </div>
+            <!--favortie artist -->
+            <div class="friend-activy-container">
+                <div class="friend-activity-title">
+                    <span>Favorite Artist</span>
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/8105/8105581.png" alt=""
+                            class="friend-activity-icon"></a>
+                </div>
+                <div class="friend-container">
+                    <a href="">
                         <div class="friend">
                             <div class="friend-image">
                                 <img src="./images/artist photo/sidhu mosewala/Sidhu-Moosewala-Photos-65.jpeg" alt="">
@@ -854,11 +972,14 @@
                                 <span class="friend-lisening-song" style="display: block;">39 Songs in Library</span>
                             </div>
                             <div class="lisening-icon">
-                                <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a" alt="">
+                                <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a"
+                                    alt="">
                             </div>
                         </div>
-                    </div>
-                    <div class="friend-container">
+                    </a>
+                </div>
+                <div class="friend-container">
+                    <a href="">
                         <div class="friend">
                             <div class="friend-image">
                                 <img src="./images/artist photo/ap dhillon/AP_Dhillon.jfif" alt="">
@@ -868,25 +989,32 @@
                                 <span class="friend-lisening-song" style="display: block;">33 Songs in Library</span>
                             </div>
                             <div class="lisening-icon">
-                                <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a" alt="">
+                                <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a"
+                                    alt="">
                             </div>
                         </div>
-                    </div>
-                    <div class="friend-container">
+                    </a>
+                </div>
+                <div class="friend-container">
+                    <a href="">
                         <div class="friend">
                             <div class="friend-image">
-                                <img src="./images/artist photo/post malone/wallpaperflare.com_wallpaper (11).jpg" alt="">
+                                <img src="./images/artist photo/post malone/wallpaperflare.com_wallpaper (11).jpg"
+                                    alt="">
                             </div>
                             <div>
                                 <span class="friend-lisening-name">Post Malone</span>
                                 <span class="friend-lisening-song" style="display: block;">113 Songs in Library</span>
                             </div>
                             <div class="lisening-icon">
-                                <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a" alt="">
+                                <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a"
+                                    alt="">
                             </div>
                         </div>
-                    </div>
-                    <div class="friend-container">
+                    </a>
+                </div>
+                <div class="friend-container">
+                    <a href="">
                         <div class="friend">
                             <div class="friend-image">
                                 <img src="./images/artist photo/king/king.jpg" alt="">
@@ -896,14 +1024,18 @@
                                 <span class="friend-lisening-song" style="display: block;">27 Songs in Library</span>
                             </div>
                             <div class="lisening-icon">
-                                <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a" alt="">
+                                <img src="https://cdn-user-icons.flaticon.com/25987/25987510/1672550526358.svg?token=exp=1672551428~hmac=11559bfdee09db416dcad73365c8872a"
+                                    alt="">
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="playing-song-container">
+            </div>
+            <div class="playing-song-container">
+                <a href="">
                     <div class="playing-song-image-container">
-                        <img src="./images/artist photo/sidhu mosewala/Sidhu-Moosewala-Photos-65.jpeg" alt="" class="playing-song-image">
+                        <img src="./images/artist photo/sidhu mosewala/Sidhu-Moosewala-Photos-65.jpeg" alt=""
+                            class="playing-song-image">
                     </div>
                     <div class="playing-song">
                         <div>
@@ -911,11 +1043,13 @@
                             <span class="playing-song-singer" style="display: block;">Sidhu Moose Wala</span>
                         </div>
                         <div>
-                            <img src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt="" class="playing-song-like-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt=""
+                                class="playing-song-like-icon">
                         </div>
                     </div>
-                </div>
-            </aside>
-        </div>
-    </body>
+                </a>
+            </div>
+        </aside>
+    </div>
+</body>
 </html>
