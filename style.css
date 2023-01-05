@@ -149,6 +149,11 @@ body {
     height: 18px;
 }
 
+.fa-heart {
+    width: 20px;
+    height: 20px;
+}
+
 .profile-notification {
     display: inline-block;
     padding: 10px;
