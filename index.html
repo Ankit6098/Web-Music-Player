@@ -3,6 +3,7 @@
 <head>
     <title>Melomaniac</title>
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1760/1760892.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="StyleSheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
@@ -52,13 +53,17 @@
         <main class="main-body">
             <div class="upper-container">
                 <div class="searchbar">
+                    <div class="menu">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2099/2099125.png" alt="">
+                    </div>
                     <div class="searchcontroller">
                         <i id="searchbar-icon" class="fa-solid fa-search"></i>
                         <input type="search" placeholder="Search for song, artist and...">
                     </div>
                     <div class="profile-notification">
                         <div>
-                        <a href=""><img class="profile-notification-icon" src="https://cdn-icons-png.flaticon.com/512/1182/1182718.png" alt=""></a>
+                            <a href=""><img class="profile-notification-icon"
+                                    src="https://cdn-icons-png.flaticon.com/512/1182/1182718.png" alt=""></a>
                         </div>
                         <div class="profile">
                             <a href="">
@@ -68,210 +73,214 @@
                             </a>
                         </div>
                     </div>
-                    
-                </div>
-                <div class="recently-listen-albums-container">
-                    <div class="recently-listen-albums-title">
-                        <span>Recently Listen Albums</span>
-                        <a href=""><span class="show-all">Show All</span></a>
-                    </div>
-                    <div class="main-recently-container">
-                        <a href="#">
-                            <div class="recently-container">
-                                <img class="recent-lissen-aablum-img1" src="./images/albums/nathan-queloz-VWZJgYLpmuI-unsplash.jpg" alt="">
-                                <div class="hiphop">
-                                    <div class="hiphop-title">
-                                        <div>
-                                            <span class="recent-album-heading">Hip-Hop</span>
-                                        </div>
-                                        <div>
-                                            <span class="recent-album-titile">120 new songs</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="recently-container">
-                                <img class="recent-lissen-aablum-img1" src="./images/albums/ben-collins-uH2BsW8VoxA-unsplash.jpg" alt="">
-                                <div class="hiphop">
-                                    <div class="hiphop-title">
-                                        <div>
-                                            <span class="recent-album-heading">Panjabi</span>
-                                        </div>
-                                        <div>
-                                            <span class="recent-album-titile">159 new songs</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="recently-container">
-                                <img class="recent-lissen-aablum-img1"
-                                    src="./images/albums/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg" alt="">
-                                <div class="hiphop">
-                                    <div class="hiphop-title">
-                                        <div>
-                                            <span class="recent-album-heading">English</span>
-                                        </div>
-                                        <div>
-                                            <span class="recent-album-titile">124 new songs</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="recently-container">
-                                <img class="recent-lissen-aablum-img1"
-                                    src="./images/albums/x-wen-qjCHPZbeXCQ-unsplash.jpg" alt="">
-                                <div class="hiphop">
-                                    <div class="hiphop-title">
-                                        <div>
-                                            <span class="recent-album-heading">Romantic</span>
-                                        </div>
-                                        <div>
-                                            <span class="recent-album-titile">88 new songs</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="recently-container">
-                                <img class="recent-lissen-aablum-img1"
-                                    src="./images/albums/jason-blackeye-wlIB1M8YTnY-unsplash.jpg" alt="">
-                                <div class="hiphop">
-                                    <div class="hiphop-title">
-                                        <div>
-                                            <span class="recent-album-heading">Spanish Pop</span>
-                                        </div>
-                                        <div>
-                                            <span class="recent-album-titile">120 new songs</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="recently-container">
-                                <img class="recent-lissen-aablum-img1"
-                                    src="./images/albums/kumiko-shimizu-HU4z23iz7Mw-unsplash.jpg" alt="">
-                                <div class="hiphop">
-                                    <div class="hiphop-title">
-                                        <div>
-                                            <span class="recent-album-heading">Pop</span>
-                                        </div>
-                                        <div>
-                                            <span class="recent-album-titile">97 new songs</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
 
-                <!-- artist section -->
-                <div class="recently-listen-albums-container">
-                    <div class="recently-listen-albums-title">
-                        <span>Recently Listen Artist</span>
-                        <a href=""><span class="show-all">Show All</span></a>
+                </div>
+                <div class="recent-container">
+                    <div class="recently-listen-albums-container">
+                        <div class="recently-listen-albums-title">
+                            <span>Recently Listen Albums</span>
+                            <a href=""><span class="show-all">Show All</span></a>
+                        </div>
+                        <div class="main-recently-container">
+                            <a href="#">
+                                <div class="recently-container">
+                                    <img class="recent-lissen-aablum-img1"
+                                        src="./images/albums/nathan-queloz-VWZJgYLpmuI-unsplash.jpg" alt="">
+                                    <div class="hiphop">
+                                        <div class="hiphop-title">
+                                            <div>
+                                                <span class="recent-album-heading">Hip-Hop</span>
+                                            </div>
+                                            <div>
+                                                <span class="recent-album-titile">120 new songs</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="recently-container">
+                                    <img class="recent-lissen-aablum-img1"
+                                        src="./images/albums/ben-collins-uH2BsW8VoxA-unsplash.jpg" alt="">
+                                    <div class="hiphop">
+                                        <div class="hiphop-title">
+                                            <div>
+                                                <span class="recent-album-heading">Panjabi</span>
+                                            </div>
+                                            <div>
+                                                <span class="recent-album-titile">159 new songs</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="recently-container">
+                                    <img class="recent-lissen-aablum-img1"
+                                        src="./images/albums/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg" alt="">
+                                    <div class="hiphop">
+                                        <div class="hiphop-title">
+                                            <div>
+                                                <span class="recent-album-heading">English</span>
+                                            </div>
+                                            <div>
+                                                <span class="recent-album-titile">124 new songs</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="recently-container">
+                                    <img class="recent-lissen-aablum-img1"
+                                        src="./images/albums/x-wen-qjCHPZbeXCQ-unsplash.jpg" alt="">
+                                    <div class="hiphop">
+                                        <div class="hiphop-title">
+                                            <div>
+                                                <span class="recent-album-heading">Romantic</span>
+                                            </div>
+                                            <div>
+                                                <span class="recent-album-titile">88 new songs</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="recently-container">
+                                    <img class="recent-lissen-aablum-img1"
+                                        src="./images/albums/jason-blackeye-wlIB1M8YTnY-unsplash.jpg" alt="">
+                                    <div class="hiphop">
+                                        <div class="hiphop-title">
+                                            <div>
+                                                <span class="recent-album-heading">Spanish Pop</span>
+                                            </div>
+                                            <div>
+                                                <span class="recent-album-titile">120 new songs</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="recently-container">
+                                    <img class="recent-lissen-aablum-img1"
+                                        src="./images/albums/kumiko-shimizu-HU4z23iz7Mw-unsplash.jpg" alt="">
+                                    <div class="hiphop">
+                                        <div class="hiphop-title">
+                                            <div>
+                                                <span class="recent-album-heading">Pop</span>
+                                            </div>
+                                            <div>
+                                                <span class="recent-album-titile">97 new songs</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="main-recently-container">
-                        <a href="#">
-                            <div class="recently-container">
-                                <img class="recent-lissen-aablum-img1"
-                                    src="./images/artist photo/sidhu mosewala/Sidhu-Moose-Wala.jpg" alt="">
-                                <div class="hiphop">
-                                    <div class="hiphop-title">
-                                        <div>
-                                            <span class="recent-album-heading">Sidhu Moose wala</span>
-                                        </div>
-                                        <div>
-                                            <span class="recent-album-titile">Verified Artist <img
-                                                    src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png"
-                                                    alt="" class="verified-artist"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="recently-container">
-                                <img class="recent-lissen-aablum-img1"
-                                    src="./images/artist photo/post malone/wallpaperflare.com_wallpaper.jpg" alt="">
-                                <div class="hiphop">
-                                    <div class="hiphop-title">
-                                        <div>
-                                            <span class="recent-album-heading">Post Malone</span>
-                                        </div>
-                                        <div>
-                                            <span class="recent-album-titile">Verified Artist <img
-                                                    src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png"
-                                                    alt="" class="verified-artist"></span>
+
+                    <!-- artist section -->
+                    <div class="recently-listen-albums-container">
+                        <div class="recently-listen-albums-title">
+                            <span>Recently Listen Artist</span>
+                            <a href=""><span class="show-all">Show All</span></a>
+                        </div>
+                        <div class="main-recently-container">
+                            <a href="#">
+                                <div class="recently-container">
+                                    <img class="recent-lissen-aablum-img1"
+                                        src="./images/artist photo/sidhu mosewala/Sidhu-Moose-Wala.jpg" alt="">
+                                    <div class="hiphop">
+                                        <div class="hiphop-title">
+                                            <div>
+                                                <span class="recent-album-heading">Sidhu Moose wala</span>
+                                            </div>
+                                            <div>
+                                                <span class="recent-album-titile">Verified Artist <img
+                                                        src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png"
+                                                        alt="" class="verified-artist"></span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="recently-container">
-                                <img class="recent-lissen-aablum-img1" src="./images/artist photo/drake/2803.jpg"
-                                    alt="">
-                                <div class="hiphop">
-                                    <div class="hiphop-title">
-                                        <div>
-                                            <span class="recent-album-heading">Drake</span>
-                                        </div>
-                                        <div>
-                                            <span class="recent-album-titile">Verified Artist <img
-                                                    src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png"
-                                                    alt="" class="verified-artist"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="recently-container">
-                                <img class="recent-lissen-aablum-img1"
-                                    src="./images/artist photo/diljit/Diljit-Dosanjh-is-looking-forward-to-work-in-Ali-Abbas-Zafars-film-based-on-Indias-1984-riots-1.jpg"
-                                    alt="">
-                                <div class="hiphop">
-                                    <div class="hiphop-title">
-                                        <div>
-                                            <span class="recent-album-heading">Diljit Dosanjh</span>
-                                        </div>
-                                        <div>
-                                            <span class="recent-album-titile">Verifired Artist <img
-                                                    src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png"
-                                                    alt="" class="verified-artist"></span>
+                            </a>
+                            <a href="#">
+                                <div class="recently-container">
+                                    <img class="recent-lissen-aablum-img1"
+                                        src="./images/artist photo/post malone/wallpaperflare.com_wallpaper.jpg" alt="">
+                                    <div class="hiphop">
+                                        <div class="hiphop-title">
+                                            <div>
+                                                <span class="recent-album-heading">Post Malone</span>
+                                            </div>
+                                            <div>
+                                                <span class="recent-album-titile">Verified Artist <img
+                                                        src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png"
+                                                        alt="" class="verified-artist"></span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="recently-container">
-                                <img class="recent-lissen-aablum-img1"
-                                    src="./images/artist photo/ap dhillon/AP_Dhillon_performs_at_DEC_Arena_m61952.jpg"
-                                    alt="">
-                                <div class="hiphop">
-                                    <div class="hiphop-title">
-                                        <div>
-                                            <span class="recent-album-heading">AP Dhillon</span>
-                                        </div>
-                                        <div>
-                                            <span class="recent-album-titile">Verified Artist <img
-                                                    src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png"
-                                                    alt="" class="verified-artist"></span>
+                            </a>
+                            <a href="#">
+                                <div class="recently-container">
+                                    <img class="recent-lissen-aablum-img1" src="./images/artist photo/drake/2803.jpg"
+                                        alt="">
+                                    <div class="hiphop">
+                                        <div class="hiphop-title">
+                                            <div>
+                                                <span class="recent-album-heading">Drake</span>
+                                            </div>
+                                            <div>
+                                                <span class="recent-album-titile">Verified Artist <img
+                                                        src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png"
+                                                        alt="" class="verified-artist"></span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                            <a href="#">
+                                <div class="recently-container">
+                                    <img class="recent-lissen-aablum-img1"
+                                        src="./images/artist photo/diljit/Diljit-Dosanjh-is-looking-forward-to-work-in-Ali-Abbas-Zafars-film-based-on-Indias-1984-riots-1.jpg"
+                                        alt="">
+                                    <div class="hiphop">
+                                        <div class="hiphop-title">
+                                            <div>
+                                                <span class="recent-album-heading">Diljit Dosanjh</span>
+                                            </div>
+                                            <div>
+                                                <span class="recent-album-titile">Verifired Artist <img
+                                                        src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png"
+                                                        alt="" class="verified-artist"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="recently-container">
+                                    <img class="recent-lissen-aablum-img1"
+                                        src="./images/artist photo/ap dhillon/AP_Dhillon_performs_at_DEC_Arena_m61952.jpg"
+                                        alt="">
+                                    <div class="hiphop">
+                                        <div class="hiphop-title">
+                                            <div>
+                                                <span class="recent-album-heading">AP Dhillon</span>
+                                            </div>
+                                            <div>
+                                                <span class="recent-album-titile">Verified Artist <img
+                                                        src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png"
+                                                        alt="" class="verified-artist"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -301,7 +310,8 @@
                                 <span></span>
                             </div>
                             <div>
-                                <img class="time-icon" src="https://cdn-icons-png.flaticon.com/512/9307/9307652.png" alt="">
+                                <img class="time-icon" src="https://cdn-icons-png.flaticon.com/512/9307/9307652.png"
+                                    alt="">
                             </div>
                         </div>
                     </div>
@@ -390,7 +400,7 @@
                                 <span>394,678,438</span>
                             </div>
                             <div class="song-like">
-                                <i class="fa-regular fa-heart"></i>                            
+                                <i class="fa-regular fa-heart"></i>
                             </div>
                             <div class="song-time">
                                 <span>3:12</span>
@@ -771,87 +781,87 @@
                     <!-- <div class="music-control-image">
                         <img src="./images/artist photo/sidhu mosewala/Sidhu-Moosewala-Photos-65.jpeg" alt="">
                     </div> -->
-                        <div class="music-control-iconsleft">
-                            <a href="">
-                                <div>
-                                    <img src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt="">
-                                </div>
-                            </a>
-                            <a href="">
-                                <div>
-                                    <img src="https://cdn-icons-png.flaticon.com/512/9195/9195125.png" alt="">
-                                </div>
-                            </a>
-                            <a href="">
-                                <div>
-                                    <img src="https://cdn-icons-png.flaticon.com/512/4562/4562831.png" alt="">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="music-control-iconsmid">
-                            <div class="upper-music-section">
-                                <a href="">
-                                    <div>
-                                        <img src="https://cdn-icons-png.flaticon.com/512/9053/9053446.png" alt="">
-                                    </div>
-                                </a>
-                                <a href="">
-                                    <div>
-                                        <img src="https://cdn-icons-png.flaticon.com/512/7191/7191563.png" alt="">
-                                    </div>
-                                </a>
-                                <a href="">
-                                    <div class="music-play-button">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/440/440796.png" alt="">
-                                    </div>
-                                </a>
-                                <a href="">
-                                    <div>
-                                        <img src="https://cdn-icons-png.flaticon.com/512/7191/7191571.png" alt="">
-                                    </div>
-                                </a>
-                                <a href="">
-                                    <div>
-                                        <img src="https://cdn-icons-png.flaticon.com/512/4742/4742240.png" alt="">
-                                    </div>
-                                </a>
+                    <div class="music-control-iconsleft">
+                        <a href="">
+                            <div>
+                                <img src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt="">
                             </div>
-                            <div class="lower-music-section">
+                        </a>
+                        <a href="">
+                            <div>
+                                <img src="https://cdn-icons-png.flaticon.com/512/9195/9195125.png" alt="">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div>
+                                <img src="https://cdn-icons-png.flaticon.com/512/4562/4562831.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="music-control-iconsmid">
+                        <div class="upper-music-section">
+                            <a href="">
                                 <div>
-                                    <span class="music-time">0:40</span>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/9053/9053446.png" alt="">
                                 </div>
-                                <a href="" class="music-progress-bar">
-                                    <div>
-                                        
-                                    </div>
-                                </a>
+                            </a>
+                            <a href="">
                                 <div>
-                                    <span class="music-time">3:50</span>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/7191/7191563.png" alt="">
                                 </div>
+                            </a>
+                            <a href="">
+                                <div class="music-play-button">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/440/440796.png" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/7191/7191571.png" alt="">
+                                </div>
+                            </a>
+                            <a href="">
+                                <div>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/4742/4742240.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="lower-music-section">
+                            <div>
+                                <span class="music-time">0:40</span>
+                            </div>
+                            <a href="" class="music-progress-bar">
+                                <div>
+
+                                </div>
+                            </a>
+                            <div>
+                                <span class="music-time">3:50</span>
                             </div>
                         </div>
-                        <div class="music-control-iconsright">
-                            <a href="">
-                                <div>
-                                    <img src="https://cdn-icons-png.flaticon.com/512/5709/5709752.png" alt="">
-                                </div>
-                            </a>
-                            <a href="">
-                                <div>
-                                    <img src="https://cdn-icons-png.flaticon.com/512/561/561228.png" alt="">
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="music-volumn-bar">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/747/747945.png" alt="">
-                                </div>
-                            </a>
-                            <a href="">
-                                <div>
-                                    <img src="https://cdn-icons-png.flaticon.com/512/786/786474.png" alt="">
-                                </div>
-                            </a>
-                        </div>
+                    </div>
+                    <div class="music-control-iconsright">
+                        <a href="">
+                            <div>
+                                <img src="https://cdn-icons-png.flaticon.com/512/5709/5709752.png" alt="">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div>
+                                <img src="https://cdn-icons-png.flaticon.com/512/561/561228.png" alt="">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="music-volumn-bar">
+                                <img src="https://cdn-icons-png.flaticon.com/512/747/747945.png" alt="">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div>
+                                <img src="https://cdn-icons-png.flaticon.com/512/786/786474.png" alt="">
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </main>
@@ -889,8 +899,7 @@
                                 <span class="friend-lisening-song" style="display: block;"></span>
                             </div>
                             <div class="lisening-icon">
-                                <img src="https://cdn-icons-png.flaticon.com/512/581/581601.png"
-                                    alt="">
+                                <img src="https://cdn-icons-png.flaticon.com/512/581/581601.png" alt="">
                             </div>
                         </div>
                     </a>
@@ -932,8 +941,7 @@
                                 <span class="friend-lisening-song" style="display: block;"></span>
                             </div>
                             <div class="lisening-icon">
-                                <img src="https://cdn-icons-png.flaticon.com/512/581/581601.png"
-                                    alt="">
+                                <img src="https://cdn-icons-png.flaticon.com/512/581/581601.png" alt="">
                             </div>
                         </div>
                     </a>
@@ -961,8 +969,7 @@
                                 <span class="friend-lisening-song" style="display: block;"></span>
                             </div>
                             <div class="lisening-icon">
-                                <img src="https://cdn-icons-png.flaticon.com/512/581/581601.png"
-                                    alt="">
+                                <img src="https://cdn-icons-png.flaticon.com/512/581/581601.png" alt="">
                             </div>
                         </div>
                     </a>
@@ -986,8 +993,7 @@
                                 <span class="friend-lisening-song" style="display: block;">139 Songs in Library</span>
                             </div>
                             <div class="lisening-icon">
-                                <img src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png"
-                                    alt="">
+                                <img src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png" alt="">
                             </div>
                         </div>
                     </a>
@@ -1003,8 +1009,7 @@
                                 <span class="friend-lisening-song" style="display: block;">33 Songs in Library</span>
                             </div>
                             <div class="lisening-icon">
-                                <img src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png"
-                                    alt="">
+                                <img src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png" alt="">
                             </div>
                         </div>
                     </a>
@@ -1021,8 +1026,7 @@
                                 <span class="friend-lisening-song" style="display: block;">113 Songs in Library</span>
                             </div>
                             <div class="lisening-icon">
-                                <img src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png"
-                                    alt="">
+                                <img src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png" alt="">
                             </div>
                         </div>
                     </a>
@@ -1038,8 +1042,7 @@
                                 <span class="friend-lisening-song" style="display: block;">27 Songs in Library</span>
                             </div>
                             <div class="lisening-icon">
-                                <img src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png"
-                                    alt="">
+                                <img src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png" alt="">
                             </div>
                         </div>
                     </a>
@@ -1054,7 +1057,9 @@
                     <div class="playing-song">
                         <div>
                             <span class="playing-song-name">Level</span>
-                            <span class="playing-song-singer">Sidhu Moose Wala <img class="playing-music-artitst-verified" src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png" alt=""></span>
+                            <span class="playing-song-singer">Sidhu Moose Wala <img
+                                    class="playing-music-artitst-verified"
+                                    src="https://cdn-icons-png.flaticon.com/512/6785/6785425.png" alt=""></span>
                         </div>
                         <div>
                             <img src="https://cdn-icons-png.flaticon.com/512/210/210545.png" alt=""
@@ -1066,4 +1071,5 @@
         </aside>
     </div>
 </body>
+
 </html>
